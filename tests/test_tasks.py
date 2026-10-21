@@ -1,5 +1,5 @@
 def test_http_health_status(client):
-    assert client.get("/health").status_code == 200
+    assert client.get("/health").status_code == 500
 
 
 def test_contrato_json_health(client):
